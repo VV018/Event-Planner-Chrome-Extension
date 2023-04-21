@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <title>Event Planner</title>
+  <link href="bootstrap.css" rel="stylesheet">
+  <script src="jquery.js"></script>
+  <link href="fontawesome-free-6.4.0-web/css/all.min.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="popup.css">
+  <script src="popup.js"></script>
+  <link rel="apple-touch-icon" sizes="60x60" href="favicon_package_v0.16 (1)/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="favicon_package_v0.16 (1)/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="favicon_package_v0.16 (1)/favicon-16x16.png">
+  <link rel="manifest" href="favicon_package_v0.16 (1)/site.webmanifest">
+  <link rel="mask-icon" href="favicon_package_v0.16 (1)/safari-pinned-tab.svg" color="#5bbad5">
+  <meta name="msapplication-TileColor" content="#da532c">
+  <meta name="theme-color" content="#ffffff">
+</head>
+
+<body>
+  <h1>Planner</h1>
+  <label class="toggle-button">
+    <input type="checkbox" id="theme-toggle">
+    <span class="check">
+      <i class="fas fa-moon" id="icon"></i>
+    </span>
+  </label>
+  <div class="event-form">
+    <h2>Create Task</h2>
+    <form id="create-event-form">
+      <label for="event-name">Event Name:</label>
+      <input type="text" id="event-name" name="event-name" required><br>
+
+      <label for="event-date">Event Date:</label>
+      <input type="date" id="event-date" name="event-date" required><br>
+
+      <label for="event-description">Event Description:</label>
+      <textarea id="event-description" name="event-description" required></textarea><br>
+
+      <button type="submit">Create Event</button>
+    </form>
+  </div>
+  <br>
+  <br>
+  <div class="events">
+    <h2>Calendar</h2>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">
+            Monday
+          </div>
+          <table id="monday-table" class="event-list">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Description</th>
+                <th colspan="2">Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">
+            Tuesday
+          </div>
+          <table id="tuesday-table" class="event-list">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Description</th>
+                <th colspan="2">Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">
+            Wednesday
+          </div>
+          <table id="wednesday-table" class="event-list">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Description</th>
+                <th colspan="2">Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">
+            Thursday
+          </div>
+          <table id="thursday-table" class="event-list">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Description</th>
+                <th colspan="2">Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">
+            Friday
+          </div>
+          <table id="friday-table" class="event-list">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Description</th>
+                <th colspan="2">Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <div class="col-md-6">
+        <div class="card">
+          <div class="card-header">
+            Saturday
+          </div>
+          <table id="saturday-table" class="event-list">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Description</th>
+                <th colspan="2">Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-md-6 offset-md-3">
+        <div class="card">
+          <div class="card-header">
+            Sunday
+          </div>
+          <table id="sunday-table" class="event-list">
+            <thead>
+              <tr>
+                <th>Name</th>
+                <th>Date</th>
+                <th>Description</th>
+                <th colspan="2">Actions</th>
+              </tr>
+            </thead>
+            <tbody>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+
+</html>
