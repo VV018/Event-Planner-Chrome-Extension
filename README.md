@@ -29,6 +29,9 @@ To use the Event Planner Chrome Extension, follow these steps:
 
 2. Fill in the event name, date, and description in the form.
 
+<img width="500" alt="Event Form" src="https://user-images.githubusercontent.com/93415143/233692412-76879915-b0f7-485a-90c5-3e4387c642d7.png">
+
+
 3. Click the "Create Event" button to create the event.
 
 4. The event will be added to the calendar view in the extension popup.
