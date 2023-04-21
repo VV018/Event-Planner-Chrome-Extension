@@ -37,12 +37,8 @@ To use the Event Planner Chrome Extension, follow these steps:
 
 5. To delete an event, click the "X" button next to the event in the calendar view.
 
-The extension also features a theme toggle that allows you to switch between a light and dark mode.
+6. The extension also features a theme toggle that allows you to switch between a light and dark mode.
 
-![Toggle](https://user-images.githubusercontent.com/93415143/233691941-031b9e49-5c16-4709-a062-6d2abcb23e3b.gif)
-
-
-To toggle the theme, click on the switch icon in the top right corner of the extension popup.
 
 ## Technologies Used
 
