@@ -39,7 +39,12 @@ To use the Event Planner Chrome Extension, follow these steps:
 
 The extension also features a theme toggle that allows you to switch between a light and dark mode.
 
-<img width="61" alt="Switch" src="https://user-images.githubusercontent.com/93415143/233686697-fb99a8c9-fc59-4a64-b67a-2fe257de53ae.png">
+
+
+https://user-images.githubusercontent.com/93415143/233690569-e8b7a6cb-cd2e-45ac-923b-0eaa259ceab3.mov
+
+
+
 
 To toggle the theme, click on the switch icon in the top right corner of the extension popup.
 
