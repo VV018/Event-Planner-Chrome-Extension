@@ -7,7 +7,7 @@ The Event Planner Chrome Extension is a simple tool that helps you keep track of
 
 ## Installation
 - Present: 
-To install the Event Planner Chrome Extension, follow these steps:
+* To install the Event Planner Chrome Extension, follow these steps:
 
 1. Clone the repository to your local machine.
 2. Open Google Chrome and type "chrome://extensions" in the address bar.
